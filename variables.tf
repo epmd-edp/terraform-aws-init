@@ -19,14 +19,4 @@ variable "table_name" {
 variable "tags" {
   description = "A map of tags to apply to all resources"
   type        = "map"
-
-  default = {
-    "SysName"      = "EPAM"
-    "SysOwner"     = "marco.hernandez@regeneron.com"
-    "Environment"  = "DEV"
-    "CostCenter"   = "0288"
-    "BusinessUnit" = "RnD"
-    "Department"   = "Research Management and Operations"
-    "Backup"       = "True"
-  }
 }
